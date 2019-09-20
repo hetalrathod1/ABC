@@ -11,9 +11,9 @@ public class BrowserSelector extends Utils {
 
     public void setUpBrowser() {
 
-//        String browserName = loadProp.getProperty( "browser" );
-        String browserName = System.getProperty( "browser" );
-//        System.out.println(browserName);
+       String browserName = loadProp.getProperty( "browser" );
+//        String browserName = System.getProperty( "browser" );
+        System.out.println(browserName);
 
 
         if (browserName.equalsIgnoreCase( "firefox" )) {
